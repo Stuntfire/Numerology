@@ -31,6 +31,8 @@ namespace Sandbox
             return result;
         }
 
+        /* Denne metode bruges til 15.02 i opgaven*/
+
         public int TwoNumbers(int a, int b)
         {
 
@@ -45,12 +47,21 @@ namespace Sandbox
             {
                 result = b;
             }
-            
-                return result;
-            }
 
-            
+            return result;
         }
 
+
+        public int FourNumbers(int a, int b, int c, int d)
+        {
+            int first = TwoNumbers(a,b);
+            int second = TwoNumbers(c, d);
+            int result = TwoNumbers(first, second);
+            return result;
+        }
+
+
     }
+
 }
+
