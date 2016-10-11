@@ -30,5 +30,27 @@ namespace Sandbox
 
             return result;
         }
+
+        public int TwoNumbers(int a, int b)
+        {
+
+            int result;
+
+            if (a > b)
+            {
+                result = a;
+            }
+
+            else
+            {
+                result = b;
+            }
+            
+                return result;
+            }
+
+            
+        }
+
     }
 }
